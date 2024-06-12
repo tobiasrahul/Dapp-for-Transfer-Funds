@@ -1,0 +1,162 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f7f9fc;
+  color: #333333;
+  font-family: 'Roboto', sans-serif;
+  padding: 20px;
+}
+
+h1.u-font {
+  color: #4a90e2;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.u-width {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.hide {
+  display: none !important;
+  opacity: 0 !important;
+  height: 0 !important;
+  overflow: hidden !important;
+  visibility: hidden !important;
+  transition: all 2s ease-in-out !important;
+}
+
+.disable:hover {
+  pointer-events: none !important;
+  cursor: not-allowed !important;
+}
+
+button#connect-btn {
+  background-color: #4a90e2;
+  color: #ffffff;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+button#connect-btn:hover {
+  background-color: #357ab8;
+}
+
+#content {
+  margin-top: 20px;
+}
+
+.container-fluid {
+  background-color: #e9ecef;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-fluid span {
+  background-color: transparent;
+  color: #4a90e2;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 1.1rem;
+}
+
+.container-fluid .fs-5 {
+  color: #000000; /* Set label color to black */
+}
+
+#account-name {
+  color: #000000; /* Set account name color to black */
+}
+
+button.btn-outline-warning {
+  border-color: #ffcc00;
+  color: #ffcc00;
+}
+
+button.btn-outline-warning:hover {
+  background-color: #ffcc00;
+  color: #ffffff;
+}
+
+button.btn-outline-primary {
+  border-color: #4a90e2;
+  color: #4a90e2;
+}
+
+button.btn-outline-primary:hover {
+  background-color: #4a90e2;
+  color: #ffffff;
+}
+
+.modal-content {
+  background-color: #f8f9fa;
+  color: #333333;
+  border-radius: 10px;
+}
+
+.modal-header {
+  border-bottom: 1px solid #e9ecef;
+}
+
+.modal-footer {
+  border-top: 1px solid #e9ecef;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  background-color: #ffffff;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  color: #333333;
+  font-size: 1rem;
+}
+
+button#closeTransfer, button#closeName {
+  background-color: #6c757d;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+button#closeTransfer:hover, button#closeName:hover {
+  background-color: #5a6268;
+}
+
+button#confirm-transfer-btn, button#confirm-name-btn {
+  background-color: #dc3545;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+button#confirm-transfer-btn:hover, button#confirm-name-btn:hover {
+  background-color: #c82333;
+}
