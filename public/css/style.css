@@ -81,11 +81,11 @@ button#connect-btn:hover {
 }
 
 .container-fluid .fs-5 {
-  color: #000000; /* Set label color to black */
+  color: #000000; 
 }
 
 #account-name {
-  color: #000000; /* Set account name color to black */
+  color: #000000; 
 }
 
 button.btn-outline-warning {
